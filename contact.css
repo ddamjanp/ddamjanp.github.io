@@ -1,0 +1,98 @@
+body{
+    background: #F2EBE9;
+    background-image:   url("content/bgbgbgbg.jpg");}
+.menu{
+    position: fixed;
+    background: #243A73;
+    display: block;
+    width:99%;
+    border-radius: 20px;
+}
+.puss{
+    height: 100px;
+    padding-left:40px;
+}
+.menu ul{
+    padding-top: 15px;
+    display: flex;
+    float: right;
+    padding-right: 100px;
+}
+.menu li{
+    font-size:35px;
+    font-family: "Trebuchet MS";
+    font-weight: 300;
+    color:white;
+    list-style: none;
+    padding-right: 100px;
+
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.contact a{
+    font-weight: 600;
+    color: white;
+}
+.home a:hover{
+    color:#A5BECC;
+
+}
+.aboutme a:hover{
+    color:#A5BECC;
+
+}
+.nadsredina{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #A5BECC,rgb(73, 136, 171));
+    height: 1500px;
+}
+.sredina{
+    padding-top: 200px;
+    font-size: 40px;
+    height:1000px;
+    width: 2000px;
+    display: flex;
+    flex-direction: column;
+    background-color:#F9F2ED;
+    padding-bottom: 70px;
+    border-radius: 9px;
+    box-shadow:10px 13px 20px  gray;
+    border-left:3px solid gray;
+    margin-bottom: 100px;
+
+
+}
+.sredina ul>li{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 40px;
+    font-family: "Trebuchet MS";
+}
+.sredina h1{
+    padding-left: 40px;
+    font-family: "Montserrat";
+    font-size: 100px;
+    color:#7C3E66;
+}
+.sredina ul{
+    padding-left: 550px;
+}
+.sredina h1>img{
+    height:120px;
+    padding-left: 20px;
+}
+.sredina ul>li a{
+    text-decoration: none;
+    color:#7C3E66;
+}
+.sredina ul>li a:hover{
+    color:#243A73;
+}
+.footer{
+    height: 20px;
+    background-color: #243A73;
+    border-radius: 20px;
+}

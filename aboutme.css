@@ -1,0 +1,153 @@
+body{
+    background: #F2EBE9;
+    background-image:   url("content/bgbgbgbg.jpg");
+}
+.menu{
+    position: fixed;
+    background: #243A73;
+    display: block;
+    width:99%;
+    border-radius: 20px;
+}
+.puss{
+    height: 100px;
+    padding-left:40px;
+}
+.menu ul{
+    padding-top: 15px;
+    display: flex;
+    float: right;
+    padding-right: 100px;
+}
+.menu li{
+    font-size:35px;
+    font-family: "Trebuchet MS";
+    font-weight: 300;
+    color:white;
+    list-style: none;
+    padding-right: 100px;
+
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.aboutme a{
+    font-weight: 600;
+    color: white;
+}
+.home a:hover{
+    color:#A5BECC;
+
+}
+.contact a:hover{
+    color:#A5BECC;
+
+}
+.sredina{
+    padding-top: 200px;
+    font-size: 40px;
+    height:800px;
+    width: 2000px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#F9F2ED;
+    padding-bottom: 70px;
+    border-radius: 9px;
+    box-shadow:10px 13px 20px  gray;
+    border-left:3px solid gray;
+    margin-bottom: 100px;
+
+}
+.slika{
+    float:right;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 50%;
+    box-shadow: 10px 10px 0px  #7C3E66;
+}
+.text{
+    border: 1px solid #7C3E66;
+    box-shadow:10px 10px 0px  #7C3E66;
+    width: 40%;
+    padding: 40px;
+    line-height: 50px;
+    font-family: "Trebuchet MS";
+    text-align: justify;
+
+
+
+}
+.text h6{
+
+    font-weight: normal;
+}
+.text h1{
+    font-family: "Montserrat";
+    font-size: 100px;
+}
+.nadsredina{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #A5BECC,rgb(73, 136, 171));
+
+    height: 1200px;
+}
+.dolno{
+    height: 600px;
+    background-image: linear-gradient(to bottom,rgb(73, 136, 171), #A5BECC);
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.interest{
+    height:500px;
+    width: 800px;
+    background-color:#F9F2ED;
+    border-radius: 10px;
+    margin-right: -90px;
+    box-shadow:10px 13px 20px  gray;
+    border-left:3px solid gray;
+    border-top:3px solid gray;
+}
+.hobby{
+    height:500px;
+    width: 800px;
+    background-color:#F9F2ED;
+    border-radius: 10px;
+    box-shadow:10px 13px 20px  gray;
+    border-left:3px solid gray;
+    border-top:3px solid gray;
+}
+.interest h2{
+    font-family: "Montserrat";
+    color:#7C3E66;
+    font-size: 40px;
+    padding: 30px 30px 0 30px;
+
+}
+.hobby h2{
+    font-family: "Montserrat";
+    color:#7C3E66;
+    font-size: 40px;
+    padding:30px;
+}
+.interest >div{
+    font-family: "Trebuchet MS";
+    font-size:30px;
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.hobby>div{
+    font-family: "Trebuchet MS";
+    font-size:30px;
+    padding-left:30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+.footer{
+    height: 20px;
+    background-color: steelblue;
+    border-radius: 20px;
+}

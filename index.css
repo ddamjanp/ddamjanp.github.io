@@ -1,0 +1,107 @@
+body{
+    background: #F2EBE9;
+    background-image:   url("content/bgbgbgbg.jpg");
+
+}
+.menu{
+    position: fixed;
+    background: #243A73;
+    display: block;
+    width:99%;
+    border-radius: 20px;
+}
+.puss{
+    height: 100px;
+    padding-left:40px;
+}
+.menu ul{
+    padding-top: 15px;
+    display: flex;
+    float: right;
+    padding-right: 100px;
+}
+.menu li{
+    font-size:35px;
+    font-family: "Trebuchet MS";
+    font-weight: 300;
+    color:white;
+    list-style: none;
+    padding-right: 100px;
+
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+}
+.home a{
+    font-weight: 600;
+    color: white;
+}
+.aboutme a:hover{
+    color:#A5BECC;
+
+}
+.contact a:hover{
+    color:#A5BECC;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main1{
+    height: 1200px;
+    width: 2700px;
+    margin-top: 150px;
+    background:#F2EBE9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:10px 10px 0px  #7C3E66;
+}
+.inner{
+    border:20px solid #A5BECC;
+    height:1000px;
+    width: 2500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.slika{
+    height: 800px;
+    border-radius: 30px;
+}
+.hi {
+    font-size: 40px;
+
+
+}
+.hi h2{
+    font-weight: normal;
+    font-family: "Trebuchet MS";
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #7C3E66, #f3ec78);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+.hi h1{
+    color: #7C3E66;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #7C3E66, #f3ec78);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.hi h5{
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    color: #7C3E66;
+}
